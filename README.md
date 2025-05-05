@@ -81,7 +81,7 @@ $$ LANGUAGE plpgsql;
 
 ## 4. Creació de la Vista 'alumnes_mascarats'
 
-Per veure les dades enmascarades, he pensat que seria útil crear una vista que mostri directament la informació enmascarada de la taula `alumnes`. Aquesta vista utilitza la funció `enmascarar_dades` per aplicar l'enmascarament a cada columna sensible.
+Per veure les dades enmascarades, he pensat que seria útil crear una vista que mostri directament la informació enmascarada de la taula `alumnes`. Aquesta vista utilitza la funció `enmascarar_dades` per aplicar l'enmascarament a cada columna.
 
 **Codi SQL per crear la vista:**
 ```sql
